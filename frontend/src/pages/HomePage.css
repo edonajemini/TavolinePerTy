@@ -1,0 +1,385 @@
+button {
+  cursor: pointer;
+}
+
+.home-page-header {
+  display: grid;
+  grid-auto-flow: column;
+}
+.home-page-header {
+  display: grid;
+  grid-auto-flow: column;
+  padding: 0 40px;
+}
+.header-btn {
+  display: grid;
+  grid-auto-flow: column;
+  justify-self: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+.header-btn button {
+  width: 70px;
+  height: 35px;
+  color: white;
+  background-color: #257f9f;
+  border: thin solid rgba(220, 220, 220, 0.548);
+  border-radius: 5px;
+}
+.header-btn button:hover {
+  background-color: #257f9fe2;
+}
+.header-btn a {
+  color: white;
+}
+.home-page-header a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+.bussines {
+  display: grid;
+  grid-auto-flow: column;
+  padding: 4px 40px;
+  background-color: rgba(128, 128, 128, 0.12);
+}
+.bussines-nav {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-self: end;
+  gap: 10px;
+}
+.bussines-nav a {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+  justify-self: flex-end;
+  font-size: 14px;
+}
+.bussines-nav p {
+  font-size: 13px;
+  color: gray;
+}
+.search-form select {
+  width: 150px;
+  height: 50px;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+.search-form input {
+  width: 250px;
+  height: 50px;
+  margin: 0 10px;
+  padding-left: 5px;
+}
+.search-form ::placeholder {
+  padding-left: 5px;
+}
+.search-form button {
+  width: 130px;
+  height: 50px;
+  border-radius: 5px;
+}
+.search-form button:hover {
+  background-color: #c42934;
+}
+.search-table {
+  display: grid;
+  grid-auto-flow: row;
+  height: 300px;
+  justify-content: center;
+  align-content: center;
+  background-color: #323c62;
+  gap: 10px;
+}
+.search-table h1 {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+.search-table button {
+  background-color: #da3644;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+.restaurants-feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  border-top: 1px solid rgba(220, 220, 220, 0.658);
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 30px;
+}
+.restaurant-feed-item {
+  width: 250px;
+  height: 310px;
+  border: thin solid gainsboro;
+  border-radius: 5px;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: 1fr 1fr auto;
+  transition: 400ms;
+}
+
+.restaurant-feed-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.restaurant-content {
+  display: grid;
+  grid-auto-flow: row;
+  padding: 15px;
+  align-content: space-between;
+  gap: 20px;
+  color: #2d3340;
+}
+
+.restaurant-feed-item button {
+  margin-bottom: 15px;
+  margin-left: 15px;
+  height: 35px;
+  width: 150px;
+  border: thin solid #da3644;
+  color: #da3644;
+  background-color: transparent;
+  border-radius: 5px;
+  transition: 350ms;
+}
+
+.restaurant-feed-item button:hover {
+  background-color: #da3644;
+  color: white;
+}
+
+.restaurant-content {
+  display: grid;
+  gap: 5px;
+}
+
+.restaurant-content h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.restaurant-content p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.restaurant-content p {
+  font-size: 14px;
+  color: rgb(81, 81, 81);
+}
+
+.restaurant-h2 {
+  color: #2d3340;
+  padding-left: 100px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.rating {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto auto 1fr;
+  gap: 5px;
+}
+.rating img {
+  margin-left: -5px;
+}
+.JoinUs {
+  margin: 100px 130px;
+  height: 400px;
+  background: url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg);
+  background-size: 100%;
+  background-position: 150px;
+  color: white;
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: center;
+}
+.JoinUs button {
+  background-color: #da3644;
+  width: 130px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  height: 35px;
+  justify-self: center;
+  margin: 10px;
+}
+.JoinUs button:hover {
+  background-color: #c42934;
+}
+.JoinUs a {
+  color: white;
+  text-decoration: none;
+}
+.JoinUs h2 {
+  justify-self: center;
+}
+/* see available dates modal */
+.available-dates-modal__wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 255%;
+  background-color: rgba(0, 0, 0, 0.101);
+  padding: 1rem;
+  display: grid;
+  justify-content: unset;
+}
+.available-dates-modal__container {
+  /* position: absolute;
+  top:15vh;
+  left: 30vw; */
+  background-color: white;
+  padding: 1rem;
+  display: grid;
+  grid-auto-flow: row;
+  width: 500px;
+  justify-self: center;
+  align-self: flex-start;
+  margin-top: 700px;
+}
+.modal__top {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  border-bottom: 1px solid #f2f3f4;
+}
+.modal__restaurants-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d333f;
+}
+.modal__close-button {
+  all: unset;
+
+  cursor: pointer;
+}
+.next-available-dates__title {
+  color: #2d333f;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 1rem;
+  text-align: center;
+}
+.day {
+  display: grid;
+  gap: 0.5rem;
+}
+.date {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: start;
+  color: #2d333f;
+}
+.times {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  gap: 0.7rem;
+}
+.time {
+  all: unset;
+  padding: 0.5rem 0.8rem;
+  color: white;
+  background-color: #da3743;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.time.unavailable {
+  /* background-color: gray;
+  color: #2d333f; */
+
+  cursor: not-allowed;
+  /* pointer-events: none; */
+  background-color: darkgray !important;
+}
+
+.time.unavailable:hover {
+  background-color: gray;
+}
+
+.time:hover {
+  background-color: #931b23;
+}
+.modal__next-available-dates {
+  display: grid;
+  gap: 1rem;
+}
+a {
+  all: unset;
+  text-decoration: none;
+}
+.signedin {
+  display: grid;
+  grid-auto-flow: column;
+  justify-self: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+.signedin button {
+  width: 70px;
+  height: 35px;
+  color: white;
+  background-color: #257f9f;
+  border: thin solid rgba(220, 220, 220, 0.548);
+  border-radius: 5px;
+}
+.react-icon {
+  font-size: 20px;
+  color: #257f9f;
+  padding-top: 5px;
+}
+.username {
+  display: grid;
+  grid-auto-flow: column;
+  padding-right: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profile-image {
+  width: fit-content;
+  padding: 17px 22px;
+  border-radius: 30px;
+  font-size: 20px;
+  background-color: #da3644;
+  color: white;
+  font-weight: 800;
+}
+.user-profile {
+  display: grid;
+  grid-auto-flow: column;
+  border-top: thin solid rgba(133, 133, 133, 0.368);
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px 0;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.addphotos-btn {
+  width: 100px;
+  height: 30px;
+  border: thin solid #da3644;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.photos-btn {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: flex-start;
+  gap: 20px;
+}

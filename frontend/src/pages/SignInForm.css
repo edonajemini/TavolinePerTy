@@ -1,0 +1,63 @@
+.signin-form{
+    border-top: thin solid gainsboro;
+    margin: 0 50px;
+    display: grid;
+    justify-content: center;
+    margin-top: -500px;
+}
+.signin-form h2{
+    margin-top: 20px;
+    color:white;
+}
+.signin-form p{
+    margin:10px 0;
+    padding-left: 5px;
+    color:white;
+    text-decoration: underline;
+}
+.form-container {
+    place-self: center;
+    display: grid;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: white;
+  }
+  
+  .form-section {
+    display: grid;
+    height: 140px;
+    gap: 1rem;
+    padding: 10px;
+  }
+  
+  .sign-in-btn {
+    background-color: #da3644;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    height: 35px;
+    justify-self: center;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: #d84c57;
+  }
+  .fun-section{
+    margin:100px 0;
+    height:400px ;
+    background: url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg);
+    background-size: 100%;
+    background-position: 150px;
+    color: white;
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content:flex-end;
+    padding-bottom: 30px;
+  }
+  

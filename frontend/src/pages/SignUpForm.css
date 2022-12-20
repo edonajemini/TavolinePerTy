@@ -1,0 +1,75 @@
+.signup-page{
+    border-top: thin solid gainsboro;
+    margin: 0 50px;
+    display: grid;
+}
+.sign-up-form-container {
+    place-self: center;
+    display: grid;
+    grid-template-rows: 45px 40px auto auto auto auto;
+    margin-top: -295px;
+    margin-bottom: 100px;
+    background-color: white;
+    width: 450px;
+    height: 475px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .sign-up-form-container a{
+    color: #da3644;
+  }
+  
+  .sign-up-form-container h4 {
+    font-weight: 400;
+  }
+  
+  .sign-up-form-container p {
+    font-size: 0.8rem;
+  }
+  
+  .sign-up-form-container label {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  label p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(70, 70, 70);
+  }
+  
+  .sign-up-form-section {
+    display: grid;
+    height: 140px;
+    gap: 1rem;
+  }
+  
+  input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    transition: 500ms;
+  }
+  
+  input:hover {
+    border: 1px solid #da3644;
+  }
+  
+  .sign-up-btn {
+    background-color: #da3644;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    height: 35px;
+    justify-self: center;
+    margin: 10px;
+  }
+  
+  .sign-up-btn:hover {
+    background-color: #d84c57;
+  }
+  

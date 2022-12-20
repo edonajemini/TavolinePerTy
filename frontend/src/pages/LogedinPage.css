@@ -1,0 +1,14 @@
+.reservations{
+    margin: 50px 100px;
+    border-top: thin solid rgba(220, 220, 220, 0.678);
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+.reservations-list{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 10px;
+    padding-top: 15px;
+}
